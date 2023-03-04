@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "terminus:pixelsize=15:antialias=true:autohint=true";
+static char *font = "terminus:pixelsize=22:antialias=true:autohint=true";
 static int borderpx = 0;
 
 /*
@@ -97,30 +97,30 @@ unsigned int tabspaces = 8;
 static const char *colorname[] = {
 	/* 8 normal colors */
 	"black",
-	"red3",
-	"green3",
-	"yellow3",
-	"blue2",
-	"magenta3",
-	"cyan3",
-	"gray90",
+    "#cc694a", /* red     */
+    "#97a85d", /* green   */
+    "#d68235", /* yellow  */
+    "#4764a2", /* blue    */
+    "#85678f", /* magenta */
+    "#7faae0", /* cyan    */
+	"#e5e5e5",
 
 	/* 8 bright colors */
 	"gray50",
-	"red",
-	"green",
-	"yellow",
-	"#5c5cff",
-	"magenta",
-	"cyan",
-	"white",
+    "#cc694a", /* red     */
+    "#70b84d", /* green   */
+    "#d68235", /* yellow  */
+    "#4764a2", /* blue    */
+    "#85678f", /* magenta */
+    "#7faae0", /* cyan    */
+	"#e5e5e5",
 
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
 	"#cccccc",
 	"#555555",
-	"gray90", /* default foreground colour */
+	"#e5e5e5", /* default foreground colour */
 	"#090909", /* default background colour */
 };
 
